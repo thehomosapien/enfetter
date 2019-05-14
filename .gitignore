@@ -1,0 +1,34 @@
+src/*.exe
+src/Enfetter
+src/Enfetterd
+src/test_Enfetter
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Enfetter
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Enfetter-qt
+Enfetter-Qt.app
+
+# Unit-tests
+Makefile.test
+Enfetter-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
